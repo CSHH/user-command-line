@@ -1,0 +1,14 @@
+services:
+    cacheStorage:
+        class: Nette\Caching\Storages\MemoryStorage
+
+extensions:
+    annotations: Kdyby\Annotations\DI\AnnotationsExtension
+    console: Kdyby\Console\DI\ConsoleExtension
+    events: Kdyby\Events\DI\EventsExtension
+    doctrine: Kdyby\Doctrine\DI\OrmExtension
+    userCommandLine: HeavenProject\UserCommandLine\UserCommandLineExtension
+
+doctrine:
+    driver: pdo_sqlite
+    memory: true

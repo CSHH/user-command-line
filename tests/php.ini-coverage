@@ -1,0 +1,4 @@
+extension=pdo.so
+extension=pdo_sqlite.so
+
+zend_extension=xdebug.so
