@@ -21,17 +21,17 @@
         }
     ],
     "require": {
-        "heavenproject/utils": "~1.0.0",
-        "kdyby/console": "~2.4.0",
-        "kdyby/doctrine": "~2.3.0",
-        "nette/di": "~2.3.0",
-        "tracy/tracy": "~2.3.0"
+        "heavenproject/utils": "^1.0",
+        "kdyby/console": "^2.4",
+        "kdyby/doctrine": "^2.3",
+        "nette/di": "^2.3",
+        "tracy/tracy": "^2.3"
     },
     "require-dev": {
-        "kdyby/annotations": "~2.2.0",
-        "kdyby/events": "~2.4.0",
+        "kdyby/annotations": "^2.2",
+        "kdyby/events": "^2.4",
         "mockery/mockery": "~0.9.0",
-        "nette/bootstrap": "~2.3.0",
+        "nette/bootstrap": "^2.3",
         "nette/tester": "*"
     },
     "autoload": {

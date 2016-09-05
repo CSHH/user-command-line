@@ -2,6 +2,10 @@
 
 Manage users via Symfony Console and Doctrine ORM on command line.
 
+## Installation
+
+`composer require heavenproject/user-command-line`
+
 ## Requirements
 
 - [Nette Framework](https://github.com/nette/nette)
